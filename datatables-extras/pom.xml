@@ -13,6 +13,7 @@
    <name>Dandelion :: Datatables :: Extras</name>
 
    <modules>
+      <module>datatables-atmosphere</module>
       <module>datatables-compression-yui</module>
       <module>datatables-servlet2</module>
       <module>datatables-spring3</module>
