@@ -29,6 +29,12 @@
  */
 package com.github.dandelion.datatables.core.asset;
 
+import javax.servlet.http.HttpServletRequest;
+
+import org.omg.PortableServer.portable.Delegate;
+
+import com.github.dandelion.core.asset.delegate.DelegateContent;
+
 
 /**
  * <p>
@@ -66,7 +72,7 @@ package com.github.dandelion.datatables.core.asset;
  * @author Thibault Duchateau
  * @since 0.1.0
  */
-public class JsResource {
+public class JsResource implements DelegateContent {
 
 	private static final String INDENTATION = "   ";
 
@@ -345,5 +351,11 @@ public class JsResource {
 
 	public void setTableId(String tableId) {
 		this.tableId = tableId;
+	}
+
+	@Override
+	public String getContent(HttpServletRequest request) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
