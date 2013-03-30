@@ -1,0 +1,14 @@
+{
+	"scope": "datatables-delegateContentI",
+	"parent" : "datatables",
+    "assets": [
+        {
+        	"name": "datatables", 
+        	"type": "js", 
+        	"version": "x.x.x",
+            "locations": {
+                "delegate": "datatables.js"
+            }
+        }
+    ]
+}

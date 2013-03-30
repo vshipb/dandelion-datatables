@@ -1,0 +1,29 @@
+{
+	"scope": "datatables",
+    "assets": [
+        {
+            "name": "jquery", 
+            "type": "js", 
+            "version": "1.9.0",
+        	"locations": {
+        		"remote": "//ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"
+        	}
+        },
+        {
+            "name": "datatables", 
+            "type": "js", 
+            "version": "1.9.4",
+        	"locations": {
+        		"remote": "//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.js"
+        	}
+        },
+        {
+            "name": "datatables", 
+            "type": "css", 
+            "version": "1.9.4",
+        	"locations": {
+        		"remote": "//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"
+        	}
+        }
+    ] 
+}
